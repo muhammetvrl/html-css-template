@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product Listing</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+  />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+  />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <span class="text"> Free shipping for orders above USD 150</span>
+  </div>
+
+  <header>
+    <div class="container-fluid nav-bg">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <a class="navbar-brand matter text" href="#">matter</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  SHOP
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <ul>
+                          Apparel
+                          <li>
+                            <i class="fa fa-angle-right"></i>PANTS</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>JUMPSUITS</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>SHORTS</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>TOPS</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <ul>
+                          Accessories
+                          <li>
+                            <i class="fa fa-angle-right"></i>Necklaces</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Scarfs</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <ul>
+                          Others
+                          <li>
+                            <i class="fa fa-angle-right"></i>Houseware</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Essentials</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <ul>
+                          Shop by collection
+                          <li>
+                            <i class="fa fa-angle-right"></i>Sale/Last Call</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Essentials</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <ul>
+                          Shop by techniques
+                          <li>
+                            <i class="fa fa-angle-right"></i>Block Printing</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Ikat</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Jamdani</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Handloom</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  JOURNAL
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <ul>
+                          Apparel
+                          <li>
+                            <i class="fa fa-angle-right"></i>PANTS</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>JUMPSUITS</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>SHORTS</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>TOPS</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <ul>
+                          Accessories
+                          <li>
+                            <i class="fa fa-angle-right"></i>Necklaces</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Scarfs</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <ul>
+                          Others
+                          <li>
+                            <i class="fa fa-angle-right"></i>Houseware</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Essentials</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <ul>
+                          Shop by collection
+                          <li>
+                            <i class="fa fa-angle-right"></i>Sale/Last Call</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Essentials</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <ul>
+                          Shop by techniques
+                          <li>
+                            <i class="fa fa-angle-right"></i>Block Printing</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Ikat</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Jamdani</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Handloom</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  FABRIC
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <ul>
+                          Apparel
+                          <li>
+                            <i class="fa fa-angle-right"></i>PANTS</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>JUMPSUITS</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>SHORTS</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>TOPS</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <ul>
+                          Accessories
+                          <li>
+                            <i class="fa fa-angle-right"></i>Necklaces</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Scarfs</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <ul>
+                          Others
+                          <li>
+                            <i class="fa fa-angle-right"></i>Houseware</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Essentials</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <ul>
+                          Shop by collection
+                          <li>
+                            <i class="fa fa-angle-right"></i>Sale/Last Call</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Essentials</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <ul>
+                          Shop by techniques
+                          <li>
+                            <i class="fa fa-angle-right"></i>Block Printing</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Ikat</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Jamdani</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Handloom</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  ABOUT
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <ul>
+                          Apparel
+                          <li>
+                            <i class="fa fa-angle-right"></i>PANTS</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>JUMPSUITS</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>SHORTS</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>TOPS</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <ul>
+                          Accessories
+                          <li>
+                            <i class="fa fa-angle-right"></i>Necklaces</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Scarfs</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <ul>
+                          Others
+                          <li>
+                            <i class="fa fa-angle-right"></i>Houseware</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Essentials</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <ul>
+                          Shop by collection
+                          <li>
+                            <i class="fa fa-angle-right"></i>Sale/Last Call</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Essentials</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <ul>
+                          Shop by techniques
+                          <li>
+                            <i class="fa fa-angle-right"></i>Block Printing</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Ikat</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Jamdani</li>
+                          <li>
+                            <i class="fa fa-angle-right"></i>Handloom</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+            </ul>
+            <ul class="navbar-nav  profile">
+              <li class="nav-item wel">Welcome, Alex</li>
+              <li class="nav-item">
+                <img class="profil-img" src="img/profile.png" width="40px" height="40px" alt="">
+              </li>
+              <li>
+                <i class="fa fa-search"></i>
+              </li>
+              <li>
+                <i class="fa fa-heart"></i>
+              </li>
+              <li>
+                <i class="fa fa-shopping-bag"></i>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="product-slider">
+    <img src="img/group-2.jpg" alt="" class="pro-img">
+    <span class="apparels">Apparels</span>
+    <p class="apparels-text">White Gold began gaining popularity in the early 1900’s as an
+      <br> alternative to platinum.</p>
+  </section>
+
+  <section class="filter">
+    <div class="container">
+      <span class="women">Women</span>
+      <form action="" class="filter-form">
+        <span>Sort by</span>
+        <select>
+          <option value="">Price</option>
+          <option value="">Fiyata Göre</option>
+          <option value="">Fiyata Göre</option>
+          <option value="">Fiyata Göre</option>
+        </select>
+      </form>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div><span class="filtersss">FILTERS</span><span class="reset">RESET</span></div>
+          <hr>
+          <div class="sidenavtitle">
+            <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="sidenav">
+              Apparels
+            </a>
+            <div class="collapse" id="collapseExample">
+              <ul>
+                <li>
+                  <i class="fa fa-angle-right"></i>PANTS</li>
+                <li>
+                  <i class="fa fa-angle-right"></i>JUMPSUITS</li>
+                <li>
+                  <i class="fa fa-angle-right"></i>SHORTS</li>
+                <li>
+                  <i class="fa fa-angle-right"></i>TOPS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="sidenavtitle">
+            <a  data-toggle="collapse" href="#acces" role="button" aria-expanded="false" aria-controls="acces" class="sidenav">
+              Accessories
+            </a>
+            <div class="collapse" id="acces">
+              <ul>
+                <li>
+                  <i class="fa fa-angle-right"></i>Necklaces</li>
+                <li>
+                  <i class="fa fa-angle-right"></i>Scarfs</li>
+              </ul>
+            </div>
+          </div>
+          <div class="sidenavtitle">
+            <a data-toggle="collapse" href="#others" role="button" aria-expanded="false" aria-controls="others" class="sidenav">
+              Others
+            </a>
+            <div class="collapse" id="others">
+              <ul>
+                <li>
+                  <i class="fa fa-angle-right"></i>Houseware</li>
+                <li>
+                  <i class="fa fa-angle-right"></i>Essentials</li>
+              </ul>
+            </div>
+          </div>
+          <div class="sidenavtitle">
+            <a  data-toggle="collapse" href="#Shop" role="button" aria-expanded="false" aria-controls="Shop" class="sidenav">
+              Shop by collection
+            </a>
+            <div class="collapse" id="Shop">
+              <ul>
+                <li>
+                  <i class="fa fa-angle-right"></i>Sale/Last Call</li>
+                <li>
+                  <i class="fa fa-angle-right"></i>Essentials</li>
+              </ul>
+            </div>
+          </div>
+          <div class="sidenavtitle">
+            <a data-toggle="collapse" href="#techniques" role="button" aria-expanded="false" aria-controls="techniques" class="sidenav">
+              Shop by techniques
+            </a>
+            <div class="collapse" id="techniques">
+              <ul>
+                <li>
+                  <i class="fa fa-angle-right"></i>Block Printing</li>
+                <li>
+                  <i class="fa fa-angle-right"></i>Ikat</li>
+                <li>
+                  <i class="fa fa-angle-right"></i>Jamdani</li>
+                <li>
+                  <i class="fa fa-angle-right"></i>Handloom</li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <div class="sizes">
+              <p class="filtersss">-SIZES</p>
+              <div class="size">
+                <span class="one">1</span>
+                <span class="two">2</span>
+                <span class="three">3</span>
+                <span class="four">4</span>
+              </div>
+              <p class="seeour" style="margin-top: 15px;">SER OUR SİZİNG GUİDE</p>
+          </div>
+
+
+        </div>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-border">
+                <img class="card-img-top" src="img/mask.png" alt="Card image cap">
+                <a href="#" id="quick" class="quick-view">QUICK VIEW</a>
+                <div class="card-body card-bg">
+                  <h5 class="card-title">Pueraria Mirifica And Study Phyto Estrogens</h5>
+                  <p class="card-text">$599.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-border">
+                <img class="card-img-top" src="img/mask.png" alt="Card image cap">
+                <a href="#" id="quick" class="quick-view">QUICK VIEW</a>
+                <div class="new">NEW</div>
+                <div class="card-body card-bg">
+                  <h5 class="card-title">Pueraria Mirifica And Study Phyto Estrogens</h5>
+                  <p class="card-text">$599.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-border">
+                <img class="card-img-top" src="img/mask.png" alt="Card image cap">
+                <a href="#" id="quick" class="quick-view">QUICK VIEW</a>
+                <div class="card-body card-bg">
+                  <h5 class="card-title">Pueraria Mirifica And Study Phyto Estrogens</h5>
+                  <p class="card-text">$599.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-border">
+                <img class="card-img-top" src="img/mask.png" alt="Card image cap">
+                <a href="#" id="quick" class="quick-view">QUICK VIEW</a>
+                <div class="card-body card-bg">
+                  <h5 class="card-title">Pueraria Mirifica And Study Phyto Estrogens</h5>
+                  <p class="card-text">$599.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-border">
+                <img class="card-img-top" src="img/mask.png" alt="Card image cap">
+                <a href="#" id="quick" class="quick-view">QUICK VIEW</a>
+                <div class="card-body card-bg">
+                  <h5 class="card-title">Pueraria Mirifica And Study Phyto Estrogens</h5>
+                  <p class="card-text">$599.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-border">
+                <img class="card-img-top" src="img/mask.png" alt="Card image cap">
+                <a href="#" id="quick" class="quick-view">QUICK VIEW</a>
+                <div class="card-body card-bg">
+                  <h5 class="card-title">Pueraria Mirifica And Study Phyto Estrogens</h5>
+                  <p class="card-text">$599.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-border">
+                <img class="card-img-top" src="img/mask.png" alt="Card image cap">
+                <a href="#" id="quick" class="quick-view">QUICK VIEW</a>
+                <div class="card-body card-bg">
+                  <h5 class="card-title">Pueraria Mirifica And Study Phyto Estrogens</h5>
+                  <p class="card-text">$599.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-border">
+                <img class="card-img-top" src="img/mask.png" alt="Card image cap">
+                <a href="#" id="quick" class="quick-view">QUICK VIEW</a>
+                <div class="card-body card-bg">
+                  <h5 class="card-title">Pueraria Mirifica And Study Phyto Estrogens</h5>
+                  <p class="card-text">$599.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-border">
+                <img class="card-img-top" src="img/mask.png" alt="Card image cap">
+                <a href="#" id="quick" class="quick-view">QUICK VIEW</a>
+                <div class="card-body card-bg">
+                  <h5 class="card-title">Pueraria Mirifica And Study Phyto Estrogens</h5>
+                  <p class="card-text">$599.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="footer">
+            <li>Categories</li>
+            <li>About Us</li>
+            <li>Testimonials</li>
+            <li>Contact</li>
+            <li>Journal</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="footer">
+            <li>Partners </li>
+            <li>Support</li>
+            <li>Shipping & Return</li>
+            <li>Size Guide</li>
+            <li>Product Care</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="footer">
+            <li>Contact us </li>
+            <li>26A Pagoda St, TANGS,</li>
+            <li>Singapore, 058187</li>
+            <li>+65 6221 5462</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="footer">
+            <li>Subscribe to newsletter</li>
+            <li>
+              <input type="text" placeholder="Enter your email" class="email">
+            </li>
+            <li>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <button class="subscribe">SUBSCRİBE</button>
+        </div>
+      </div>
+
+      <p style="text-align: center; margin-top:60px;" class="footer-txt">© Copyright Matter PTE LTD 2017</p>
+
+    </div>
+  </footer>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
